@@ -1,0 +1,15 @@
+export type  TimeseriesChartProps = {
+  data?: {[attribute: string]: number | string}[],
+  attribute: string,
+  yAxisLimit?: number | string,
+  format?: string,
+  highlightedValue?: number | string,
+  customDateFormat?: string,
+  label: string,
+  noDataMessage?: string,
+  noDataTitle?: string,
+  displayDateInUtc?: boolean,
+  minimalHeader?: boolean,
+  chartSize?: string,
+  className?: string,
+}
